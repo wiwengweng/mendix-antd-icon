@@ -1,4 +1,4 @@
-[中文版](https://github.com/wiwengweng/mendix-antd-dropdown-menu/blob/main/README-CN.md)
+[中文版](https://github.com/wiwengweng/mendix-antd-icon/blob/main/README-CN.md)
 ## Introduction
 
 A Mendix Widget widget implemented based on Ant Design. The widget implements most of the interfaces of [`icon`](https://ant.design/components/icon) in Ant Design (antd). You can go [here](https://ant.design/components/icon) to see various features of the original antd component.
@@ -47,13 +47,22 @@ The General tab contains most of the common configuration options
 * Rotate - Support icon rotate
 * Spin - Support icon spin animation
 
+External icons
+
+you can use iconfont to customize the icons
+![](./resources/icon-external.png)
+
+add a iconfont library to the `Icon source`, and fill in the `Icon code`
+
+p.s. There are some restricts within Ant Design Icon with iconfont. Iconfonts are named after `icon-`. e.g: `icon-wrong-b`. We shall fill in the `Icon code` with the 2nd part `wrong-b`.
+
 ## Functional comparison with `antd` Icon
 
-This lists all the parameters of `dropdown` in `antd`, and explains whether the widget supports this APIs, and why without support(eventually developers can DIY). If you want to learn more of the original APIs in `antd`, please [check this out](https://ant.design/components/icon).
+This lists all the parameters of `Icon` in `antd`, and explains whether the widget supports this APIs, and why without support(eventually developers can DIY). If you want to learn more of the original APIs in `antd`, please [check this out](https://ant.design/components/icon).
 
 ![](./resources/API%E5%AF%B9%E6%AF%94.png)
 ## Issues, suggestions and feature requests
-[Github Issue](https://github.com/wiwengweng/mendix-antd-dropdown-menu/issues)
+[Github Issue](https://github.com/wiwengweng/mendix-antd-icon/issues)
 
 At the same time, your are welcome to get into the China Technology Forum to get more in Mendix widget development. [check this out](https://marketplace.siemens.com.cn/low-code-community)
 
