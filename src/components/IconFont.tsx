@@ -73,7 +73,7 @@ export default function create(
 
     return Iconfont;
 }
-export function loadIconLib(scriptUrl: string | string[] | undefined) {
+export function loadIconLib(scriptUrl: string | string[] | undefined): any {
     /**
      * DOM API required.
      * Make sure in browser environment.

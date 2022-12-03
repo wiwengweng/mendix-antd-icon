@@ -7,10 +7,10 @@ import AntIconComponent from "./components/AntIconComponent";
 import "./ui/AntIcon.scss";
 // import { PropertySafetyOutlined } from "@ant-design/icons";
 
-export default function AntIcon(props: AntIconContainerProps) {
+export default function AntIcon(props: AntIconContainerProps): any {
     const iconSourceList = useMemo(() => props.iconSourceList.map(d => d.url), []);
     const [icon, setIcon] = useState<string | undefined>();
-    const iconStyle = {...props.style, 'font-size': props.fontsize};
+    const iconStyle = { ...props.style, "font-size": props.fontsize };
     useEffect(() => {
         if (props.valueAttribute && props.valueAttribute.status === ValueStatus.Available) {
             setIcon(props.valueAttribute.value?.toString());
