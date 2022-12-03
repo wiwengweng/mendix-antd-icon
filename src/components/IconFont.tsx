@@ -1,7 +1,6 @@
-import { createElement, forwardRef, ForwardRefExoticComponent, PropsWithoutRef, RefAttributes } from "react";
+import React, { createElement, forwardRef, ForwardRefExoticComponent, PropsWithoutRef, RefAttributes } from "react";
 import Icon, { IconBaseProps } from "./Icon";
 import "./font_8d5l8fzk5b87iudi";
-
 // scriptUrl: "//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js"
 export const BuildinIconScriptUrl = "widgets/resources/font_8d5l8fzk5b87iudi.js";
 const customCache = new Set<string>();
@@ -73,7 +72,7 @@ export default function create(
 
     return Iconfont;
 }
-export function loadIconLib(scriptUrl: string | string[] | undefined) {
+export function loadIconLib(scriptUrl: string | string[] | undefined): any {
     /**
      * DOM API required.
      * Make sure in browser environment.

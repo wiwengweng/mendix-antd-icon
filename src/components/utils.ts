@@ -5,7 +5,7 @@ import warn from "rc-util/lib/warning";
 import { updateCSS } from "rc-util/lib/Dom/dynamicCSS";
 import IconContext from "@ant-design/icons/lib/components/Context";
 
-export function warning(valid: boolean, message: string) {
+export function warning(valid: boolean, message: string): any {
     warn(valid, `[@ant-design/icons] ${message}`);
 }
 
@@ -127,7 +127,7 @@ export const iconStyles = `
 }
 `;
 
-export const useInsertStyles = (styleStr: string = iconStyles) => {
+export const useInsertStyles = (styleStr: string = iconStyles): any => {
     const { csp } = useContext(IconContext);
 
     useEffect(() => {
@@ -135,5 +135,5 @@ export const useInsertStyles = (styleStr: string = iconStyles) => {
             prepend: true,
             csp
         });
-    }, []);
+    }, [csp, styleStr]);
 };

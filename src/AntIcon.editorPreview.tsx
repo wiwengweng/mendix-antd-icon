@@ -5,7 +5,7 @@ import AntIconComponent from "./components/AntIconComponent";
 
 declare function require(name: string): string;
 
-export function preview(props: AntIconPreviewProps) {
+export function preview(props: AntIconPreviewProps): any {
     console.log(parseStyle(props.style));
 
     return (

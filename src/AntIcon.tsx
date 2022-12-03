@@ -4,13 +4,12 @@ import { ValueStatus } from "mendix";
 import { AntIconContainerProps } from "../typings/AntIconProps";
 import AntIconComponent from "./components/AntIconComponent";
 
-import "./ui/AntIcon.scss";
 // import { PropertySafetyOutlined } from "@ant-design/icons";
 
-export default function AntIcon(props: AntIconContainerProps) {
-    const iconSourceList = useMemo(() => props.iconSourceList.map(d => d.url), []);
+export default function AntIcon(props: AntIconContainerProps): any {
+    const iconSourceList = useMemo(() => props.iconSourceList.map(d => d.url), [props.iconSourceList]);
     const [icon, setIcon] = useState<string | undefined>();
-    const iconStyle = {...props.style, 'font-size': props.fontsize};
+    const iconStyle = { ...props.style, "font-size": props.fontsize };
     useEffect(() => {
         if (props.valueAttribute && props.valueAttribute.status === ValueStatus.Available) {
             setIcon(props.valueAttribute.value?.toString());
@@ -18,7 +17,7 @@ export default function AntIcon(props: AntIconContainerProps) {
         if (!props.valueAttribute) {
             setIcon(props.datasourceType === "addon" ? props.value : props.buildInIcon);
         }
-    }, [props.valueAttribute]);
+    }, [props.valueAttribute, props.datasourceType, props.value, props.buildInIcon]);
     return (
         <AntIconComponent
             iconSourceList={iconSourceList}

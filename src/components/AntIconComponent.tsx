@@ -14,7 +14,7 @@ export interface AntIconComponentProps {
     rotate?: number;
 }
 
-export default function AntIconComponent(props: AntIconComponentProps) {
+export default function AntIconComponent(props: AntIconComponentProps): any {
     loadIconLib(props.iconSourceList ? props.iconSourceList : BuildinIconScriptUrl);
     return (
         <IconFont
