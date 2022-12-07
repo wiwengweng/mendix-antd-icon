@@ -1,15 +1,15 @@
 import { createElement, useEffect, useMemo, useState } from "react";
 import { ValueStatus } from "mendix";
 
-import { AntIconContainerProps } from "../typings/AntIconProps";
-import AntIconComponent from "./components/AntIconComponent";
+import { AntdIconContainerProps } from "../typings/AntdIconProps";
+import AntdIconComponent from "./components/AntdIconComponent";
 
 // import { PropertySafetyOutlined } from "@ant-design/icons";
 
-export default function AntIcon(props: AntIconContainerProps): any {
+export default function AntIcon(props: AntdIconContainerProps): any {
     const iconSourceList = useMemo(() => props.iconSourceList.map(d => d.url), [props.iconSourceList]);
     const [icon, setIcon] = useState<string | undefined>();
-    const iconStyle = { ...props.style, "font-size": props.fontsize };
+    const iconStyle = { ...props.style, "font-size": props.fontsize + "px" };
     useEffect(() => {
         if (props.valueAttribute && props.valueAttribute.status === ValueStatus.Available) {
             setIcon(props.valueAttribute.value?.toString());
@@ -19,7 +19,7 @@ export default function AntIcon(props: AntIconContainerProps): any {
         }
     }, [props.valueAttribute, props.datasourceType, props.value, props.buildInIcon]);
     return (
-        <AntIconComponent
+        <AntdIconComponent
             iconSourceList={iconSourceList}
             class={props.class}
             style={iconStyle}
@@ -28,6 +28,6 @@ export default function AntIcon(props: AntIconContainerProps): any {
             icon={icon}
             spin={props.spin}
             rotate={props.rotate}
-        ></AntIconComponent>
+        ></AntdIconComponent>
     );
 }

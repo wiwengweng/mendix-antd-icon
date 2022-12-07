@@ -1,8 +1,8 @@
 import React, { createElement, forwardRef, ForwardRefExoticComponent, PropsWithoutRef, RefAttributes } from "react";
 import Icon, { IconBaseProps } from "./Icon";
-import "./font_8d5l8fzk5b87iudi";
+import "./font_3804267_b1r1vaerwpd";
 // scriptUrl: "//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js"
-export const BuildinIconScriptUrl = "widgets/resources/font_8d5l8fzk5b87iudi.js";
+export const BuildinIconScriptUrl = "widgets/resources/font_3804267_b1r1vaerwpd.js";
 const customCache = new Set<string>();
 customCache.add(BuildinIconScriptUrl);
 
