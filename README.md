@@ -3,6 +3,8 @@
 
 A Mendix Widget widget implemented based on Ant Design. The widget implements most of the interfaces of [`icon`](https://ant.design/components/icon) in Ant Design (antd). You can go [here](https://ant.design/components/icon) to see various features of the original antd component.
 
+View features of this project on [online demo](https://demo-antdwidgets-sandbox.mxapps.io/).
+
 ![Ant Design Dropdown](./resources/introduction.png)
 
 ## Features
