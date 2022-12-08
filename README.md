@@ -27,10 +27,8 @@ A Mendix Widget widget implemented based on Ant Design. The widget implements mo
 
 ## Demo project
 
-1. You can access the online demo at [here](todo).
-2. You can also download the demo project and run it on your own Mendix Studio Pro. The specific method is as follows:
-    1. clone demo project.
-    2. Run.
+1. You can access the online demo from [here](https://demo-antdwidgets-sandbox.mxapps.io/) to show the features of this widget.   
+2. You can also download the demo project from [here](https://github.com/zjh1943/mendx-antd-widgets-show) to run it on your own PC.
     
 
 ## Detailed configuration instructions
