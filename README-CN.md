@@ -1,3 +1,7 @@
+![GitHub all releases](https://img.shields.io/github/downloads/wiwengweng/mendix-antd-icon/total?style=social)
+
+[English](https://github.com/wiwengweng/mendix-antd-icon/blob/master/README.md)
+
 ## 介绍
 
 基于 Ant Design 实现的 Mendix Widget 小部件。 widget 实现了 Ant Design (antd) 中 [`icon`](https://ant.design/components/icon) 的大部分接口。你可以去 [这里](https://ant.design/components/icon) 查看原始 antd 组件的各种功能。

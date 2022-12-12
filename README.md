@@ -1,3 +1,5 @@
+![GitHub all releases](https://img.shields.io/github/downloads/wiwengweng/mendix-antd-icon/total?style=social)
+
 [中文版](https://github.com/wiwengweng/mendix-antd-icon/blob/master/README-CN.md)
 ## Introduction
 
