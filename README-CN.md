@@ -5,7 +5,7 @@
 ## 介绍
 
 基于 Ant Design 实现的 Mendix Widget 小部件。 widget 实现了 Ant Design (antd) 中 [`icon`](https://ant.design/components/icon) 的大部分接口。你可以去 [这里](https://ant.design/components/icon) 查看原始 antd 组件的各种功能。
-点击这个[在线 Demo](https://demo-antdwidgets-sandbox.mxapps.io/)可在线预览该组件的特性。
+点击这个[在线 Demo](https://demo-antdwidgets100.apps.ap-2a.mendixcloud.com/)可在线预览该组件的特性。
 
 ![Ant Design 下拉菜单](./resources/introduction.png)
 
@@ -30,7 +30,7 @@
         3. 完成配置，运行项目看效果
 
 ## 演示项目
-1. 你可以在[这里](https://demo-antdwidgets-sandbox.mxapps.io/)访问在线 demo。  
+1. 你可以在[这里](https://demo-antdwidgets100.apps.ap-2a.mendixcloud.com/)访问在线 demo。  
 2. 也可以从[这里](https://github.com/zjh1943/mendx-antd-widgets-show)下载 demo project，在自己的 Mendix Studio Pro 上启动运行。  
     
 

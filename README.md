@@ -5,7 +5,7 @@
 
 A Mendix Widget widget implemented based on Ant Design. The widget implements most of the interfaces of [`icon`](https://ant.design/components/icon) in Ant Design (antd). You can go [here](https://ant.design/components/icon) to see various features of the original antd component.
 
-View features of this project on [online demo](https://demo-antdwidgets-sandbox.mxapps.io/).
+View features of this project on [online demo](https://demo-antdwidgets100.apps.ap-2a.mendixcloud.com/).
 
 ![Ant Design Dropdown](./resources/introduction.png)
 
@@ -31,7 +31,7 @@ View features of this project on [online demo](https://demo-antdwidgets-sandbox.
 
 ## Demo project
 
-1. You can access the online demo from [here](https://demo-antdwidgets-sandbox.mxapps.io/) to show the features of this widget.   
+1. You can access the online demo from [here](https://demo-antdwidgets100.apps.ap-2a.mendixcloud.com/) to show the features of this widget.   
 2. You can also download the demo project from [here](https://github.com/zjh1943/mendx-antd-widgets-show) to run it on your own PC.
     
 
