@@ -51,6 +51,7 @@ General选项卡包含大多数常见的配置选项
 External Iconfont
 
 你可以使用 iconfont 自定义图标
+
 ![](./resources/icon-external.png)
 
 在`Icon source`中添加一个iconfont库，并填写`Icon code`

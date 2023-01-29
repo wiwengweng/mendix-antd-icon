@@ -12,7 +12,7 @@
             <propertyGroup caption="General">
                 <property key="datasourceType" type="enumeration" defaultValue="buildin" required="true">
                     <caption>Icon source</caption>
-                    <description>选择图标来源</description>
+                    <description>use build-in icons or customize with external icon-font</description>
                     <enumerationValues>
                         <enumerationValue key="buildin">Buildin</enumerationValue>
                         <enumerationValue key="addon">External</enumerationValue>
@@ -20,7 +20,7 @@
                 </property>
                 <property key="buildInIcon" type="enumeration" defaultValue="Dollar" required="true">
                     <caption>Select icon</caption>
-                    <description>内置图标选择</description>
+                    <description>choose build-in icon with list</description>
                     <enumerationValues>
                         <enumerationValue key="apartment">apartment</enumerationValue>
                         <enumerationValue key="robot">robot</enumerationValue>
@@ -186,37 +186,37 @@
                 </property>
                 <property key="value" type="string" required="false" multiline="false">
                     <caption>Icon code</caption>
-                    <description>图标代码</description>
+                    <description>Icon code when using external icon-font libraries. Icon code is something like: 'icon-xxx',and 'icon-' is the default prefix. Fill 'xxx' as icon code here. More info, please refer to https://www.iconfont.cn/</description>
                 </property>
                 <property key="valueAttribute" type="attribute" required="false">
                     <caption>Icon code</caption>
-                    <description>图标代码</description>
+                    <description>The attribute for icon code</description>
                     <attributeTypes>
                         <attributeType name="String"/>
                     </attributeTypes>
                 </property>
                 <property key="fontsize" type="integer" defaultValue="32" required="true">
                     <caption>Font size</caption>
-                    <description>图标大小(单位px,推荐尺寸：16px,24px,32px等)</description>
+                    <description>Unit:px. Recommended:16,24,32,64 etc.</description>
                 </property>
                 <property key="rotate" type="integer" defaultValue="0">
                     <caption>Rotate</caption>
-                    <description>旋转角度</description>
+                    <description>Rotation angle, unit:degree</description>
                 </property>
                 <property key="spin" type="boolean" defaultValue="false">
                     <caption>spin</caption>
-                    <description>是否旋转动画</description>
+                    <description>with spin animation</description>
                 </property>
             </propertyGroup>
-            <propertyGroup caption="图标源">
+            <propertyGroup caption="Icon source">
                 <property key="iconSourceList" type="object" isList="true" required="false">
                     <caption>Icon source</caption>
-                    <description>图标源</description>
+                    <description>fill the icon source link</description>
                     <properties>
                         <propertyGroup caption="General">
                             <property key="url" type="string" required="true" multiline="false">
                                 <caption>url</caption>
-                                <description>填写iconfont地址如：//at.alicdn.com/t/font_1788044_0dwu4guekcwr.js
+                                <description>fill iconfont url, for example: //at.alicdn.com/t/font_1788044_0dwu4guekcwr.js
                                 </description>
                             </property>
                         </propertyGroup>
